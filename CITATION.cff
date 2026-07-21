@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Leakage-Free Evaluation of Single-Cell Treatment Response Classifiers Reveals Systematic Underpowering in Current Public Datasets"
+authors:
+  - family-names: Choi
+    given-names: Patrick
+    affiliation: "University of South Florida"
+year: 2026
+license: MIT
+preferred-citation:
+  type: article
+  title: "Leakage-Free Evaluation of Single-Cell Treatment Response Classifiers Reveals Systematic Underpowering in Current Public Datasets"
+  authors:
+    - family-names: Choi
+      given-names: Patrick
+      affiliation: "University of South Florida"
+  year: 2026

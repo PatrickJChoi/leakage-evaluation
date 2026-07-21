@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.venv/
+venv/
+attic/
+Data/
+
+# Demoted results (kept on disk, not committed — superseded/ambiguous provenance)
+melanoma_verified_results.pkl
+ibd_verified_results.pkl
+gimats_multimodal_results.pkl
