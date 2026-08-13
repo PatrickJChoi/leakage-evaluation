@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.venv/
+venv/
+attic/
+Data/
+
+# Demoted result (kept on disk, not committed — ambiguous provenance, not independently regenerated)
+gimats_multimodal_results.pkl
+
+# LaTeX build artifacts
+latex/*.aux
+latex/*.log
+latex/*.blg
+latex/*.out
+latex/out.txt
+latex/page-*.png
+latex/SAMPLE_reference.tex
