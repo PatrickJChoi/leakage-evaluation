@@ -1,0 +1,104 @@
+{
+  "threshold_rule": ">= 2 of 18 melanoma LOO-CV folds",
+  "testability_rule": "testable iff resolved to a non-null Entrez ID in Results/entrez_mapping.json AND that ID is present in the GSE91061 expression matrix index",
+  "raw_inputs_used": [
+    "C:\\Users\\Jaeho\\Research\\papers\\leakage-evaluation\\Data\\GSE91061_BMS038109Sample.hg19KnownGene.rld.csv.gz",
+    "C:\\Users\\Jaeho\\Research\\papers\\leakage-evaluation\\Data\\GSE91061_series_matrix.txt.gz"
+  ],
+  "gene_source": "C:\\Users\\Jaeho\\Research\\papers\\leakage-evaluation\\melanoma_consensus_counts.pkl",
+  "entrez_mapping_source": "C:\\Users\\Jaeho\\Research\\papers\\leakage-evaluation\\Results\\entrez_mapping.json",
+  "excluded_genes": [
+    {
+      "gene": "LAP3P2",
+      "folds_selected": 5,
+      "entrez_id": 389386,
+      "failed_condition": "entrez_id_not_in_matrix",
+      "detail": "Entrez ID 389386 resolved but not present in the GSE91061 expression matrix index"
+    },
+    {
+      "gene": "RP11-799M12.2",
+      "folds_selected": 5,
+      "failed_condition": "no_entrez_id",
+      "detail": "no non-null Entrez ID for this gene in Results/entrez_mapping.json"
+    },
+    {
+      "gene": "AL391994.1",
+      "folds_selected": 2,
+      "failed_condition": "no_entrez_id",
+      "detail": "no non-null Entrez ID for this gene in Results/entrez_mapping.json"
+    },
+    {
+      "gene": "FABP5P2",
+      "folds_selected": 2,
+      "entrez_id": 729163,
+      "failed_condition": "entrez_id_not_in_matrix",
+      "detail": "Entrez ID 729163 resolved but not present in the GSE91061 expression matrix index"
+    }
+  ],
+  "per_gene": [
+    {
+      "gene": "TBC1D10B",
+      "entrez_id": 26000,
+      "folds_selected": 18,
+      "mean_R": 10.278227192565073,
+      "mean_NR": 10.353774137252993,
+      "diff_R_minus_NR": -0.07554694468792,
+      "direction": "NR > R",
+      "p_value": 0.7391563117815021
+    },
+    {
+      "gene": "TNRC6B",
+      "entrez_id": 23112,
+      "folds_selected": 17,
+      "mean_R": 10.912860381898538,
+      "mean_NR": 10.677256114790637,
+      "diff_R_minus_NR": 0.2356042671079006,
+      "direction": "R > NR",
+      "p_value": 0.21722128435857857
+    },
+    {
+      "gene": "FOXP1",
+      "entrez_id": 27086,
+      "folds_selected": 10,
+      "mean_R": 10.267230542126208,
+      "mean_NR": 9.645203281115988,
+      "diff_R_minus_NR": 0.6220272610102207,
+      "direction": "R > NR",
+      "p_value": 0.08129865727531466
+    },
+    {
+      "gene": "DHCR24",
+      "entrez_id": 1718,
+      "folds_selected": 3,
+      "mean_R": 11.593743197605221,
+      "mean_NR": 11.311189924824653,
+      "diff_R_minus_NR": 0.28255327278056797,
+      "direction": "R > NR",
+      "p_value": 0.9219858186308934
+    },
+    {
+      "gene": "G6PD",
+      "entrez_id": 2539,
+      "folds_selected": 2,
+      "mean_R": 10.46530200012205,
+      "mean_NR": 10.325658628504355,
+      "diff_R_minus_NR": 0.13964337161769436,
+      "direction": "R > NR",
+      "p_value": 0.4219474160690819
+    },
+    {
+      "gene": "SELL",
+      "entrez_id": 6402,
+      "folds_selected": 2,
+      "mean_R": 12.44185858825055,
+      "mean_NR": 11.765023868575971,
+      "diff_R_minus_NR": 0.676834719674579,
+      "direction": "R > NR",
+      "p_value": 0.13151308625853653
+    }
+  ],
+  "n_agree": 5,
+  "n_total": 6,
+  "binomial_p_one_sided_greater": 0.109375,
+  "binomial_p_two_sided": 0.21875
+}

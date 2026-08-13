@@ -1,0 +1,676 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{18}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{roda}
+\begin{botherref}
+\oauthor{\bsnm{Roda}, \binits{G.}},
+\oauthor{\bsnm{Jharap}, \binits{B.}},
+\oauthor{\bsnm{Neeraj}, \binits{N.}},
+\oauthor{\bsnm{Colombel}, \binits{J.F.}}:
+Loss of response to anti-{TNF}s: Definition, epidemiology, and management.
+Clin Transl Gastroenterol
+\textbf{7}(1)
+(2016).
+doi:\doiurl{10.1038/ctg.2015.63}
+\end{botherref}
+\endbibitem
+
+%%% 2
+\bibitem{alatab}
+\begin{barticle}
+\bauthor{\bsnm{Alatab}, \binits{S.}},
+\bauthor{\bsnm{Sepanlou}, \binits{S.G.}},
+\bauthor{\bsnm{Ikuta}, \binits{K.}},
+\bauthor{\bsnm{Vahedi}, \binits{H.}},
+\bauthor{\bsnm{Bisignano}, \binits{C.}},
+\bauthor{\bsnm{Safiri}, \binits{S.}}, \betal:
+\batitle{The global, regional, and national burden of inflammatory bowel
+  disease in 195 countries and territories, 1990-2017: a systematic analysis
+  for the {G}lobal {B}urden of {D}isease {S}tudy 2017}.
+\bjtitle{Lancet Gastroenterol Hepatol}
+\bvolume{5}(\bissue{1}),
+\bfpage{17}--\blpage{30}
+(\byear{2020}).
+doi:\doiurl{10.1016/S2468-1253(19)30333-4}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{riaz}
+\begin{barticle}
+\bauthor{\bsnm{Riaz}, \binits{N.}},
+\bauthor{\bsnm{Havel}, \binits{J.J.}},
+\bauthor{\bsnm{Makarov}, \binits{V.}},
+\bauthor{\bsnm{Desrichard}, \binits{A.}},
+\bauthor{\bsnm{Urba}, \binits{W.J.}},
+\bauthor{\bsnm{Sims}, \binits{J.S.}}, \betal:
+\batitle{Tumor and microenvironment evolution during immunotherapy with
+  nivolumab}.
+\bjtitle{Cell}
+\bvolume{171}(\bissue{4}),
+\bfpage{934}--\blpage{949}
+(\byear{2017}).
+doi:\doiurl{10.1016/j.cell.2017.09.028}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{sadefeldman}
+\begin{barticle}
+\bauthor{\bsnm{Sade-Feldman}, \binits{M.}},
+\bauthor{\bsnm{Yizhak}, \binits{K.}},
+\bauthor{\bsnm{Bjorgaard}, \binits{S.L.}},
+\bauthor{\bsnm{Ray}, \binits{J.P.}},
+\bauthor{\bsnm{{de Boer}}, \binits{C.G.}},
+\bauthor{\bsnm{Jenkins}, \binits{R.W.}}, \betal:
+\batitle{Defining {T} cell states associated with response to checkpoint
+  immunotherapy in melanoma}.
+\bjtitle{Cell}
+\bvolume{175}(\bissue{4}),
+\bfpage{998}--\blpage{1013}
+(\byear{2018}).
+doi:\doiurl{10.1016/j.cell.2018.10.038}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{pinhasi}
+\begin{barticle}
+\bauthor{\bsnm{Pinhasi}, \binits{A.}},
+\bauthor{\bsnm{Yizhak}, \binits{K.}}:
+\batitle{Uncovering gene and cellular signatures of immune checkpoint response
+  via machine learning and single-cell {RNA}-seq}.
+\bjtitle{npj Precis Oncol}
+\bvolume{9},
+\bfpage{95}
+(\byear{2025}).
+doi:\doiurl{10.1038/s41698-025-00883-z}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{martin}
+\begin{barticle}
+\bauthor{\bsnm{Martin}, \binits{J.C.}},
+\bauthor{\bsnm{Chang}, \binits{C.}},
+\bauthor{\bsnm{Boschetti}, \binits{G.}},
+\bauthor{\bsnm{Ungaro}, \binits{R.}},
+\bauthor{\bsnm{Giri}, \binits{M.}},
+\bauthor{\bsnm{Grout}, \binits{J.A.}}, \betal:
+\batitle{Single-cell analysis of {C}rohn's disease lesions identifies a
+  pathogenic cellular module associated with resistance to anti-{TNF} therapy}.
+\bjtitle{Cell}
+\bvolume{178}(\bissue{6}),
+\bfpage{1493}--\blpage{1508}
+(\byear{2019}).
+doi:\doiurl{10.1016/j.cell.2019.08.008}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{friedrich}
+\begin{barticle}
+\bauthor{\bsnm{Friedrich}, \binits{M.}},
+\bauthor{\bsnm{Pohin}, \binits{M.}},
+\bauthor{\bsnm{Jackson}, \binits{M.A.}},
+\bauthor{\bsnm{Korsunsky}, \binits{I.}},
+\bauthor{\bsnm{Bullers}, \binits{S.J.}},
+\bauthor{\bsnm{Rue-Albrecht}, \binits{K.}}, \betal:
+\batitle{{IL}-1-driven stromal-neutrophil interactions define a subset of
+  patients with inflammatory bowel disease that does not respond to therapies}.
+\bjtitle{Nat Med}
+\bvolume{27}(\bissue{11}),
+\bfpage{1970}--\blpage{1981}
+(\byear{2021}).
+doi:\doiurl{10.1038/s41591-021-01520-5}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{whalen}
+\begin{barticle}
+\bauthor{\bsnm{Whalen}, \binits{S.}},
+\bauthor{\bsnm{Schreiber}, \binits{J.}},
+\bauthor{\bsnm{Noble}, \binits{W.S.}},
+\bauthor{\bsnm{Pollard}, \binits{K.S.}}:
+\batitle{Navigating the pitfalls of applying machine learning in genomics}.
+\bjtitle{Nat Rev Genet}
+\bvolume{23}(\bissue{3}),
+\bfpage{169}--\blpage{181}
+(\byear{2022}).
+doi:\doiurl{10.1038/s41576-021-00434-9}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{kapoor}
+\begin{barticle}
+\bauthor{\bsnm{Kapoor}, \binits{S.}},
+\bauthor{\bsnm{Narayanan}, \binits{A.}}:
+\batitle{Leakage and the reproducibility crisis in machine-learning-based
+  science}.
+\bjtitle{Patterns}
+\bvolume{4}(\bissue{9}),
+\bfpage{100804}
+(\byear{2023}).
+doi:\doiurl{10.1016/j.patter.2023.100804}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{squair}
+\begin{barticle}
+\bauthor{\bsnm{Squair}, \binits{J.W.}},
+\bauthor{\bsnm{Gautier}, \binits{M.}},
+\bauthor{\bsnm{Kathe}, \binits{C.}},
+\bauthor{\bsnm{Anderson}, \binits{M.A.}},
+\bauthor{\bsnm{James}, \binits{N.D.}},
+\bauthor{\bsnm{Hutson}, \binits{T.H.}}, \betal:
+\batitle{Confronting false discoveries in single-cell differential expression}.
+\bjtitle{Nat Commun}
+\bvolume{12},
+\bfpage{5692}
+(\byear{2021}).
+doi:\doiurl{10.1038/s41467-021-25960-2}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem{thomas}
+\begin{barticle}
+\bauthor{\bsnm{Thomas}, \binits{T.}},
+\bauthor{\bsnm{Friedrich}, \binits{M.}},
+\bauthor{\bsnm{Rich-Griffin}, \binits{C.}},
+\bauthor{\bsnm{Pohin}, \binits{M.}},
+\bauthor{\bsnm{Agarwal}, \binits{D.}},
+\bauthor{\bsnm{Pakpoor}, \binits{J.}}, \betal:
+\batitle{A longitudinal single-cell atlas of anti-tumour necrosis factor
+  treatment in inflammatory bowel disease}.
+\bjtitle{Nat Immunol}
+\bvolume{25}(\bissue{11}),
+\bfpage{2152}--\blpage{2165}
+(\byear{2024}).
+doi:\doiurl{10.1038/s41590-024-01994-8}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{wolf}
+\begin{barticle}
+\bauthor{\bsnm{Wolf}, \binits{F.A.}},
+\bauthor{\bsnm{Angerer}, \binits{P.}},
+\bauthor{\bsnm{Theis}, \binits{F.J.}}:
+\batitle{{SCANPY}: large-scale single-cell gene expression data analysis}.
+\bjtitle{Genome Biol}
+\bvolume{19},
+\bfpage{15}
+(\byear{2018}).
+doi:\doiurl{10.1186/s13059-017-1382-0}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem{breiman}
+\begin{barticle}
+\bauthor{\bsnm{Breiman}, \binits{L.}}:
+\batitle{Random forests}.
+\bjtitle{Mach Learn}
+\bvolume{45},
+\bfpage{5}--\blpage{32}
+(\byear{2001}).
+doi:\doiurl{10.1023/A:1010933404324}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{phipson}
+\begin{barticle}
+\bauthor{\bsnm{Phipson}, \binits{B.}},
+\bauthor{\bsnm{Smyth}, \binits{G.K.}}:
+\batitle{Permutation {P}-values should never be zero: calculating exact
+  {P}-values when permutations are randomly drawn}.
+\bjtitle{Stat Appl Genet Mol Biol}
+\bvolume{9}(\bissue{1}),
+\bfpage{39}
+(\byear{2010}).
+doi:\doiurl{10.2202/1544-6115.1585}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{hanley}
+\begin{barticle}
+\bauthor{\bsnm{Hanley}, \binits{J.A.}},
+\bauthor{\bsnm{McNeil}, \binits{B.J.}}:
+\batitle{The meaning and use of the area under a receiver operating
+  characteristic ({ROC}) curve}.
+\bjtitle{Radiology}
+\bvolume{143}(\bissue{1}),
+\bfpage{29}--\blpage{36}
+(\byear{1982}).
+doi:\doiurl{10.1148/radiology.143.1.7063747}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{azoitei}
+\begin{barticle}
+\bauthor{\bsnm{Azoitei}, \binits{N.}},
+\bauthor{\bsnm{Brey}, \binits{A.}},
+\bauthor{\bsnm{Busch}, \binits{T.}},
+\bauthor{\bsnm{Fulda}, \binits{S.}},
+\bauthor{\bsnm{Adler}, \binits{G.}},
+\bauthor{\bsnm{Seufferlein}, \binits{T.}}:
+\batitle{Thirty-eight-negative kinase 1 ({TNK}1) facilitates {TNF}alpha-induced
+  apoptosis by blocking {NF}-kappa{B} activation}.
+\bjtitle{Oncogene}
+\bvolume{26}(\bissue{45}),
+\bfpage{6536}--\blpage{6545}
+(\byear{2007}).
+doi:\doiurl{10.1038/sj.onc.1210476}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem{armacki}
+\begin{barticle}
+\bauthor{\bsnm{Armacki}, \binits{M.}},
+\bauthor{\bsnm{Trugenberger}, \binits{A.K.}},
+\bauthor{\bsnm{Ellwanger}, \binits{A.K.}},
+\bauthor{\bsnm{Eiseler}, \binits{T.}},
+\bauthor{\bsnm{Schwerdt}, \binits{C.}},
+\bauthor{\bsnm{Bettac}, \binits{L.}}, \betal:
+\batitle{Thirty-eight-negative kinase 1 mediates trauma-induced intestinal
+  injury and multi-organ failure}.
+\bjtitle{J Clin Invest}
+\bvolume{128}(\bissue{11}),
+\bfpage{5056}--\blpage{5072}
+(\byear{2018}).
+doi:\doiurl{10.1172/JCI97912}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem{feng}
+\begin{barticle}
+\bauthor{\bsnm{Feng}, \binits{X.}},
+\bauthor{\bsnm{Wang}, \binits{H.}},
+\bauthor{\bsnm{Takata}, \binits{H.}},
+\bauthor{\bsnm{Day}, \binits{T.J.}},
+\bauthor{\bsnm{Willen}, \binits{J.}},
+\bauthor{\bsnm{Hu}, \binits{H.}}:
+\batitle{Transcription factor {F}oxp1 exerts essential cell-intrinsic
+  regulation of the quiescence of naive {T} cells}.
+\bjtitle{Nat Immunol}
+\bvolume{12}(\bissue{6}),
+\bfpage{544}--\blpage{550}
+(\byear{2011}).
+doi:\doiurl{10.1038/ni.2034}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>Loss of Response to Anti-{TNF}s: Definition, Epidemiology, and
+  Management</p></title>
+  <aug>
+    <au><snm>Roda</snm><fnm>G.</fnm></au>
+    <au><snm>Jharap</snm><fnm>B.</fnm></au>
+    <au><snm>Neeraj</snm><fnm>N.</fnm></au>
+    <au><snm>Colombel</snm><fnm>J. F.</fnm></au>
+  </aug>
+  <source>Clin Transl Gastroenterol</source>
+  <pubdate>2016</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+</bibl>
+
+<bibl id="B2">
+  <title><p>The global, regional, and national burden of inflammatory bowel
+  disease in 195 countries and territories, 1990-2017: a systematic analysis
+  for the {G}lobal {B}urden of {D}isease {S}tudy 2017</p></title>
+  <aug>
+    <au><snm>Alatab</snm><fnm>S.</fnm></au>
+    <au><snm>Sepanlou</snm><fnm>S. G.</fnm></au>
+    <au><snm>Ikuta</snm><fnm>K.</fnm></au>
+    <au><snm>Vahedi</snm><fnm>H.</fnm></au>
+    <au><snm>Bisignano</snm><fnm>C.</fnm></au>
+    <au><snm>Safiri</snm><fnm>S.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Lancet Gastroenterol Hepatol</source>
+  <pubdate>2020</pubdate>
+  <volume>5</volume>
+  <issue>1</issue>
+  <fpage>17</fpage>
+  <lpage>-30</lpage>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Tumor and microenvironment evolution during immunotherapy with
+  nivolumab</p></title>
+  <aug>
+    <au><snm>Riaz</snm><fnm>N.</fnm></au>
+    <au><snm>Havel</snm><fnm>J. J.</fnm></au>
+    <au><snm>Makarov</snm><fnm>V.</fnm></au>
+    <au><snm>Desrichard</snm><fnm>A.</fnm></au>
+    <au><snm>Urba</snm><fnm>W. J.</fnm></au>
+    <au><snm>Sims</snm><fnm>J. S.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Cell</source>
+  <pubdate>2017</pubdate>
+  <volume>171</volume>
+  <issue>4</issue>
+  <fpage>934</fpage>
+  <lpage>-949</lpage>
+</bibl>
+
+<bibl id="B4">
+  <title><p>Defining {T} cell states associated with response to checkpoint
+  immunotherapy in melanoma</p></title>
+  <aug>
+    <au><snm>Sade Feldman</snm><fnm>M.</fnm></au>
+    <au><snm>Yizhak</snm><fnm>K.</fnm></au>
+    <au><snm>Bjorgaard</snm><fnm>S. L.</fnm></au>
+    <au><snm>Ray</snm><fnm>J. P.</fnm></au>
+    <au><snm>{de Boer}</snm><fnm>C. G.</fnm></au>
+    <au><snm>Jenkins</snm><fnm>R. W.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Cell</source>
+  <pubdate>2018</pubdate>
+  <volume>175</volume>
+  <issue>4</issue>
+  <fpage>998</fpage>
+  <lpage>-1013</lpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>Uncovering gene and cellular signatures of immune checkpoint
+  response via machine learning and single-cell {RNA}-seq</p></title>
+  <aug>
+    <au><snm>Pinhasi</snm><fnm>A.</fnm></au>
+    <au><snm>Yizhak</snm><fnm>K.</fnm></au>
+  </aug>
+  <source>npj Precis Oncol</source>
+  <pubdate>2025</pubdate>
+  <volume>9</volume>
+  <fpage>95</fpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>Single-cell analysis of {C}rohn's disease lesions identifies a
+  pathogenic cellular module associated with resistance to anti-{TNF}
+  therapy</p></title>
+  <aug>
+    <au><snm>Martin</snm><fnm>J. C.</fnm></au>
+    <au><snm>Chang</snm><fnm>C.</fnm></au>
+    <au><snm>Boschetti</snm><fnm>G.</fnm></au>
+    <au><snm>Ungaro</snm><fnm>R.</fnm></au>
+    <au><snm>Giri</snm><fnm>M.</fnm></au>
+    <au><snm>Grout</snm><fnm>J. A.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Cell</source>
+  <pubdate>2019</pubdate>
+  <volume>178</volume>
+  <issue>6</issue>
+  <fpage>1493</fpage>
+  <lpage>-1508</lpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>{IL}-1-driven stromal-neutrophil interactions define a subset of
+  patients with inflammatory bowel disease that does not respond to
+  therapies</p></title>
+  <aug>
+    <au><snm>Friedrich</snm><fnm>M.</fnm></au>
+    <au><snm>Pohin</snm><fnm>M.</fnm></au>
+    <au><snm>Jackson</snm><fnm>M. A.</fnm></au>
+    <au><snm>Korsunsky</snm><fnm>I.</fnm></au>
+    <au><snm>Bullers</snm><fnm>S. J.</fnm></au>
+    <au><snm>Rue Albrecht</snm><fnm>K.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Nat Med</source>
+  <pubdate>2021</pubdate>
+  <volume>27</volume>
+  <issue>11</issue>
+  <fpage>1970</fpage>
+  <lpage>-1981</lpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Navigating the pitfalls of applying machine learning in
+  genomics</p></title>
+  <aug>
+    <au><snm>Whalen</snm><fnm>S.</fnm></au>
+    <au><snm>Schreiber</snm><fnm>J.</fnm></au>
+    <au><snm>Noble</snm><fnm>W. S.</fnm></au>
+    <au><snm>Pollard</snm><fnm>K. S.</fnm></au>
+  </aug>
+  <source>Nat Rev Genet</source>
+  <pubdate>2022</pubdate>
+  <volume>23</volume>
+  <issue>3</issue>
+  <fpage>169</fpage>
+  <lpage>-181</lpage>
+</bibl>
+
+<bibl id="B9">
+  <title><p>Leakage and the reproducibility crisis in machine-learning-based
+  science</p></title>
+  <aug>
+    <au><snm>Kapoor</snm><fnm>S.</fnm></au>
+    <au><snm>Narayanan</snm><fnm>A.</fnm></au>
+  </aug>
+  <source>Patterns</source>
+  <pubdate>2023</pubdate>
+  <volume>4</volume>
+  <issue>9</issue>
+  <fpage>100804</fpage>
+</bibl>
+
+<bibl id="B10">
+  <title><p>Confronting false discoveries in single-cell differential
+  expression</p></title>
+  <aug>
+    <au><snm>Squair</snm><fnm>J. W.</fnm></au>
+    <au><snm>Gautier</snm><fnm>M.</fnm></au>
+    <au><snm>Kathe</snm><fnm>C.</fnm></au>
+    <au><snm>Anderson</snm><fnm>M. A.</fnm></au>
+    <au><snm>James</snm><fnm>N. D.</fnm></au>
+    <au><snm>Hutson</snm><fnm>T. H.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Nat Commun</source>
+  <pubdate>2021</pubdate>
+  <volume>12</volume>
+  <fpage>5692</fpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>A longitudinal single-cell atlas of anti-tumour necrosis factor
+  treatment in inflammatory bowel disease</p></title>
+  <aug>
+    <au><snm>Thomas</snm><fnm>T.</fnm></au>
+    <au><snm>Friedrich</snm><fnm>M.</fnm></au>
+    <au><snm>Rich Griffin</snm><fnm>C.</fnm></au>
+    <au><snm>Pohin</snm><fnm>M.</fnm></au>
+    <au><snm>Agarwal</snm><fnm>D.</fnm></au>
+    <au><snm>Pakpoor</snm><fnm>J.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Nat Immunol</source>
+  <pubdate>2024</pubdate>
+  <volume>25</volume>
+  <issue>11</issue>
+  <fpage>2152</fpage>
+  <lpage>-2165</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>{SCANPY}: large-scale single-cell gene expression data
+  analysis</p></title>
+  <aug>
+    <au><snm>Wolf</snm><fnm>F. A.</fnm></au>
+    <au><snm>Angerer</snm><fnm>P.</fnm></au>
+    <au><snm>Theis</snm><fnm>F. J.</fnm></au>
+  </aug>
+  <source>Genome Biol</source>
+  <pubdate>2018</pubdate>
+  <volume>19</volume>
+  <fpage>15</fpage>
+</bibl>
+
+<bibl id="B13">
+  <title><p>Random forests</p></title>
+  <aug>
+    <au><snm>Breiman</snm><fnm>L.</fnm></au>
+  </aug>
+  <source>Mach Learn</source>
+  <pubdate>2001</pubdate>
+  <volume>45</volume>
+  <fpage>5</fpage>
+  <lpage>-32</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Permutation {P}-values should never be zero: calculating exact
+  {P}-values when permutations are randomly drawn</p></title>
+  <aug>
+    <au><snm>Phipson</snm><fnm>B.</fnm></au>
+    <au><snm>Smyth</snm><fnm>G. K.</fnm></au>
+  </aug>
+  <source>Stat Appl Genet Mol Biol</source>
+  <pubdate>2010</pubdate>
+  <volume>9</volume>
+  <issue>1</issue>
+  <fpage>Article39</fpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>The meaning and use of the area under a receiver operating
+  characteristic ({ROC}) curve</p></title>
+  <aug>
+    <au><snm>Hanley</snm><fnm>J. A.</fnm></au>
+    <au><snm>McNeil</snm><fnm>B. J.</fnm></au>
+  </aug>
+  <source>Radiology</source>
+  <pubdate>1982</pubdate>
+  <volume>143</volume>
+  <issue>1</issue>
+  <fpage>29</fpage>
+  <lpage>-36</lpage>
+</bibl>
+
+<bibl id="B16">
+  <title><p>Thirty-eight-negative kinase 1 ({TNK}1) facilitates
+  {TNF}alpha-induced apoptosis by blocking {NF}-kappa{B} activation</p></title>
+  <aug>
+    <au><snm>Azoitei</snm><fnm>N.</fnm></au>
+    <au><snm>Brey</snm><fnm>A.</fnm></au>
+    <au><snm>Busch</snm><fnm>T.</fnm></au>
+    <au><snm>Fulda</snm><fnm>S.</fnm></au>
+    <au><snm>Adler</snm><fnm>G.</fnm></au>
+    <au><snm>Seufferlein</snm><fnm>T.</fnm></au>
+  </aug>
+  <source>Oncogene</source>
+  <pubdate>2007</pubdate>
+  <volume>26</volume>
+  <issue>45</issue>
+  <fpage>6536</fpage>
+  <lpage>-6545</lpage>
+</bibl>
+
+<bibl id="B17">
+  <title><p>Thirty-eight-negative kinase 1 mediates trauma-induced intestinal
+  injury and multi-organ failure</p></title>
+  <aug>
+    <au><snm>Armacki</snm><fnm>M.</fnm></au>
+    <au><snm>Trugenberger</snm><fnm>A. K.</fnm></au>
+    <au><snm>Ellwanger</snm><fnm>A. K.</fnm></au>
+    <au><snm>Eiseler</snm><fnm>T.</fnm></au>
+    <au><snm>Schwerdt</snm><fnm>C.</fnm></au>
+    <au><snm>Bettac</snm><fnm>L.</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>J Clin Invest</source>
+  <pubdate>2018</pubdate>
+  <volume>128</volume>
+  <issue>11</issue>
+  <fpage>5056</fpage>
+  <lpage>-5072</lpage>
+</bibl>
+
+<bibl id="B18">
+  <title><p>Transcription factor {F}oxp1 exerts essential cell-intrinsic
+  regulation of the quiescence of naive {T} cells</p></title>
+  <aug>
+    <au><snm>Feng</snm><fnm>X.</fnm></au>
+    <au><snm>Wang</snm><fnm>H.</fnm></au>
+    <au><snm>Takata</snm><fnm>H.</fnm></au>
+    <au><snm>Day</snm><fnm>T. J.</fnm></au>
+    <au><snm>Willen</snm><fnm>J.</fnm></au>
+    <au><snm>Hu</snm><fnm>H.</fnm></au>
+  </aug>
+  <source>Nat Immunol</source>
+  <pubdate>2011</pubdate>
+  <volume>12</volume>
+  <issue>6</issue>
+  <fpage>544</fpage>
+  <lpage>-550</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment

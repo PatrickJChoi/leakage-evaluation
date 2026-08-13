@@ -1,0 +1,62 @@
+{
+  "method": "Hanley & McNeil (1982) single-AUC variance, balanced design",
+  "assumptions": {
+    "null_auc": 0.5,
+    "alpha_two_sided": 0.05,
+    "target_power": 0.8,
+    "class_balance": "balanced (n1 = n2 = N/2)",
+    "auc_values": [
+      0.75,
+      0.766,
+      0.741,
+      0.8
+    ],
+    "z_alpha_half": 1.959963984540054,
+    "z_beta": 0.8416212335729143,
+    "n_search": {
+      "start": 4,
+      "step": 2,
+      "max": 1000000
+    }
+  },
+  "results": [
+    {
+      "auc": 0.75,
+      "n_per_group": 20,
+      "n_total": 40,
+      "se0": 0.0924211375534118,
+      "se1": 0.07789072015146789,
+      "achieved_power": 0.8116605647758559
+    },
+    {
+      "auc": 0.766,
+      "n_per_group": 18,
+      "n_total": 36,
+      "se0": 0.09755234956345128,
+      "se1": 0.08009952068867927,
+      "achieved_power": 0.8248092693427258
+    },
+    {
+      "auc": 0.741,
+      "n_per_group": 22,
+      "n_total": 44,
+      "se0": 0.08802234877744128,
+      "se1": 0.07519112013594612,
+      "achieved_power": 0.8187831280048808
+    },
+    {
+      "auc": 0.8,
+      "n_per_group": 14,
+      "n_total": 28,
+      "se0": 0.11104022682248588,
+      "se1": 0.08544932592822074,
+      "achieved_power": 0.832453579758698
+    }
+  ],
+  "environment": {
+    "python_executable": "C:\\Users\\Jaeho\\mambaforge\\python.exe",
+    "python_version": "3.12.7",
+    "scipy_version": "1.17.1",
+    "numpy_version": "2.4.3"
+  }
+}

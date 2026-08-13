@@ -1,0 +1,46 @@
+AUC POWER CALCULATION — Hanley & McNeil (1982) single-AUC variance
+==============================================================================
+
+alpha (two-sided): 0.05
+target power: 0.8
+z_(1-alpha/2) = np.float64(1.959963984540054)
+z_(1-beta)   = np.float64(0.8416212335729143)
+Null AUC: 0.5
+N search: start=4, step=2 (balanced n1=n2=N/2), max=1000000
+
+RESULTS
+------------------------------------------------------------------------------
+AUC = 0.75
+  required n per group : 20
+  required total N      : 40
+  SE0 (Var at A=0.5)^0.5 : 0.0924211375534118
+  SE1 (Var at A)^0.5     : 0.07789072015146789
+  achieved power at N    : np.float64(0.8116605647758559)
+
+AUC = 0.766
+  required n per group : 18
+  required total N      : 36
+  SE0 (Var at A=0.5)^0.5 : 0.09755234956345128
+  SE1 (Var at A)^0.5     : 0.08009952068867927
+  achieved power at N    : np.float64(0.8248092693427258)
+
+AUC = 0.741
+  required n per group : 22
+  required total N      : 44
+  SE0 (Var at A=0.5)^0.5 : 0.08802234877744128
+  SE1 (Var at A)^0.5     : 0.07519112013594612
+  achieved power at N    : np.float64(0.8187831280048808)
+
+AUC = 0.8
+  required n per group : 14
+  required total N      : 28
+  SE0 (Var at A=0.5)^0.5 : 0.11104022682248588
+  SE1 (Var at A)^0.5     : 0.08544932592822074
+  achieved power at N    : np.float64(0.832453579758698)
+
+ENVIRONMENT
+------------------------------------------------------------------------------
+Python executable : C:\Users\Jaeho\mambaforge\python.exe
+Python version    : 3.12.7 (3.12.7 | packaged by conda-forge | (main, Oct  4 2024, 15:47:54) [MSC v.1941 64 bit (AMD64)])
+SciPy version     : 1.17.1
+NumPy version     : 2.4.3

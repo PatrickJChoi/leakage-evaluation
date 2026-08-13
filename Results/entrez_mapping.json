@@ -1,0 +1,130 @@
+{
+  "description": "Complete symbol->Entrez-ID mapping for all genes referenced by the melanoma bulk-validation scripts, combining the pre-existing hardcoded mapping (13 genes, carried over unchanged) with four genes newly attempted via one live NCBI E-utilities esearch call each, on 2026-07-28, as part of testing the >=2-fold-selection threshold rule. Includes explicit unresolved entries so this network dependency does not need to be repeated.",
+  "generated": "2026-07-28",
+  "genes": {
+    "TBC1D10B": {
+      "entrez_id": 26000,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "TNRC6B": {
+      "entrez_id": 23112,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "FOXP1": {
+      "entrez_id": 27086,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "DHCR24": {
+      "entrez_id": 1718,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "G6PD": {
+      "entrez_id": 2539,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "SELL": {
+      "entrez_id": 6402,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "ADA": {
+      "entrez_id": 100,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "RIC3": {
+      "entrez_id": 79608,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "EZH2": {
+      "entrez_id": 2146,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "UBE2M": {
+      "entrez_id": 9040,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "GTF2F1": {
+      "entrez_id": 2962,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "DCLRE1B": {
+      "entrez_id": 64858,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "BLMH": {
+      "entrez_id": 642,
+      "resolution_source": "existing_hardcoded_mapping (Code/reproduce_directional_binomial.py, lines 29-35 / validate_gse91061_fpkm.py, lines 10-13)",
+      "resolved": true,
+      "present_in_gse91061_matrix": true
+    },
+    "LAP3P2": {
+      "entrez_id": 389386,
+      "resolution_source": "ncbi_esearch_live_call_2026-07-28",
+      "resolved": true,
+      "esearch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gene&term=LAP3P2%5BGene%20Name%5D%20AND%20Homo%20sapiens%5BOrganism%5D&retmode=json&retmax=5",
+      "esearch_http_status": 200,
+      "esearch_raw_response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"389386\"],\"translationset\":[{\"from\":\"Homo sapiens[Organism]\",\"to\":\"\\\"Homo sapiens\\\"[Organism]\"}],\"translationstack\":[{\"term\":\"LAP3P2[Gene Name]\",\"field\":\"Gene Name\",\"count\":\"1\",\"explode\":\"N\"},{\"term\":\"\\\"Homo sapiens\\\"[Organism]\",\"field\":\"Organism\",\"count\":\"360514\",\"explode\":\"Y\"},\"AND\"],\"querytranslation\":\"LAP3P2[Gene Name] AND \\\"Homo sapiens\\\"[Organism]\"}}\n",
+      "esearch_id_list": [
+        "389386"
+      ],
+      "present_in_gse91061_matrix": false
+    },
+    "RP11-799M12.2": {
+      "entrez_id": null,
+      "resolution_source": "ncbi_esearch_live_call_2026-07-28",
+      "resolved": false,
+      "esearch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gene&term=RP11-799M12.2%5BGene%20Name%5D%20AND%20Homo%20sapiens%5BOrganism%5D&retmode=json&retmax=5",
+      "esearch_http_status": 200,
+      "esearch_raw_response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"0\",\"retmax\":\"0\",\"retstart\":\"0\",\"idlist\":[],\"translationset\":[{\"from\":\"Homo sapiens[Organism]\",\"to\":\"\\\"Homo sapiens\\\"[Organism]\"}],\"querytranslation\":\"RP11-799M12.2[Gene Name] AND Homo sapiens[Organism]\",\"errorlist\":{\"phrasesnotfound\":[\"RP11-799M12.2[Gene Name]\"],\"fieldsnotfound\":[]},\"warninglist\":{\"phrasesignored\":[],\"quotedphrasesnotfound\":[],\"outputmessages\":[\"No items found.\"]}}}\n",
+      "esearch_id_list": [],
+      "present_in_gse91061_matrix": null,
+      "status": "UNRESOLVED - NCBI esearch returned no matching gene record"
+    },
+    "AL391994.1": {
+      "entrez_id": null,
+      "resolution_source": "ncbi_esearch_live_call_2026-07-28",
+      "resolved": false,
+      "esearch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gene&term=AL391994.1%5BGene%20Name%5D%20AND%20Homo%20sapiens%5BOrganism%5D&retmode=json&retmax=5",
+      "esearch_http_status": 200,
+      "esearch_raw_response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"0\",\"retmax\":\"0\",\"retstart\":\"0\",\"idlist\":[],\"translationset\":[{\"from\":\"Homo sapiens[Organism]\",\"to\":\"\\\"Homo sapiens\\\"[Organism]\"}],\"querytranslation\":\"AL391994.1[Gene Name] AND Homo sapiens[Organism]\",\"errorlist\":{\"phrasesnotfound\":[\"AL391994.1[Gene Name]\"],\"fieldsnotfound\":[]},\"warninglist\":{\"phrasesignored\":[],\"quotedphrasesnotfound\":[],\"outputmessages\":[\"No items found.\"]}}}\n",
+      "esearch_id_list": [],
+      "present_in_gse91061_matrix": null,
+      "status": "UNRESOLVED - NCBI esearch returned no matching gene record"
+    },
+    "FABP5P2": {
+      "entrez_id": 729163,
+      "resolution_source": "ncbi_esearch_live_call_2026-07-28",
+      "resolved": true,
+      "esearch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gene&term=FABP5P2%5BGene%20Name%5D%20AND%20Homo%20sapiens%5BOrganism%5D&retmode=json&retmax=5",
+      "esearch_http_status": 200,
+      "esearch_raw_response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"729163\"],\"translationset\":[{\"from\":\"Homo sapiens[Organism]\",\"to\":\"\\\"Homo sapiens\\\"[Organism]\"}],\"translationstack\":[{\"term\":\"FABP5P2[Gene Name]\",\"field\":\"Gene Name\",\"count\":\"1\",\"explode\":\"N\"},{\"term\":\"\\\"Homo sapiens\\\"[Organism]\",\"field\":\"Organism\",\"count\":\"360514\",\"explode\":\"Y\"},\"AND\"],\"querytranslation\":\"FABP5P2[Gene Name] AND \\\"Homo sapiens\\\"[Organism]\"}}\n",
+      "esearch_id_list": [
+        "729163"
+      ],
+      "present_in_gse91061_matrix": false
+    }
+  }
+}

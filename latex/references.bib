@@ -1,0 +1,254 @@
+% ============================================================================
+% references.bib -- Paper 1 (leakage-evaluation)
+% Revised 2026-07-28. SUPERSEDES the 2026-07-27 draft.
+%
+% VERIFY THE RENDERED PDF, NOT THIS FILE. Rebuild with bibtex8 and confirm the
+% reference list in the compiled output before treating this as done.
+%
+% ENTRY COUNT: 18 (was 14)
+%
+% CORRECTIONS TO EXISTING ENTRIES
+%   [roda]    title, journal, volume, pages all wrong -> corrected; DOI added
+%   [martin]  title corrected: "a lymphocyte-myeloid co-expression module"
+%             -> "a pathogenic cellular module" (published title)
+%   [wolf]    "and others" removed -- this paper has exactly three authors
+%   9 entries expanded from one author + "and others" to six + "and others"
+%   Brace protection added to titles to stop the .bst lower-casing acronyms
+%   and proper nouns (SCANPY, TNF, IL, Crohn's, T cell, RNA-seq).
+%
+% NEW ENTRIES (all author lists verified against PubMed + publisher record)
+%   [azoitei] TNK1 -> TNF-alpha-induced apoptosis. Exactly 6 authors.
+%   [armacki] TNK1 in IBD / infliximab. 33 authors, first 6 listed.
+%   [feng]    FOXP1 -> naive CD8+ T cell quiescence. Exactly 6 authors.
+%   [hanley]  ROC AUC methodology, for the power-calculation sentence.
+%             *** NOT INDEPENDENTLY VERIFIED THIS SESSION -- see note below ***
+%
+% ENTRIES NOT TOUCHED and NOT verified:
+%   pinhasi, whalen, kapoor, breiman, phipson
+% ============================================================================
+
+@article{alatab,
+  author  = {Alatab, S. and Sepanlou, S. G. and Ikuta, K. and Vahedi, H. and
+             Bisignano, C. and Safiri, S. and others},
+  title   = {The global, regional, and national burden of inflammatory bowel disease in 195 countries and territories, 1990-2017: a systematic analysis for the {G}lobal {B}urden of {D}isease {S}tudy 2017},
+  journal = {Lancet Gastroenterol Hepatol},
+  year    = {2020},
+  volume  = {5},
+  number  = {1},
+  pages   = {17--30},
+  doi     = {10.1016/S2468-1253(19)30333-4}
+}
+
+% CORRECTED -- previously listed the wrong title, journal, volume and pages.
+% Verified against PubMed (PMID 26741065) and the journal's own record.
+@article{roda,
+  author  = {Roda, G. and Jharap, B. and Neeraj, N. and Colombel, J. F.},
+  title   = {Loss of Response to Anti-{TNF}s: Definition, Epidemiology, and Management},
+  journal = {Clin Transl Gastroenterol},
+  year    = {2016},
+  volume  = {7},
+  number  = {1},
+  doi     = {10.1038/ctg.2015.63}
+}
+
+@article{riaz,
+  author  = {Riaz, N. and Havel, J. J. and Makarov, V. and Desrichard, A. and
+             Urba, W. J. and Sims, J. S. and others},
+  title   = {Tumor and microenvironment evolution during immunotherapy with nivolumab},
+  journal = {Cell},
+  year    = {2017},
+  volume  = {171},
+  number  = {4},
+  pages   = {934--949},
+  doi     = {10.1016/j.cell.2017.09.028}
+}
+
+@article{sadefeldman,
+  author  = {Sade-Feldman, M. and Yizhak, K. and Bjorgaard, S. L. and
+             Ray, J. P. and {de Boer}, C. G. and Jenkins, R. W. and others},
+  title   = {Defining {T} cell states associated with response to checkpoint immunotherapy in melanoma},
+  journal = {Cell},
+  year    = {2018},
+  volume  = {175},
+  number  = {4},
+  pages   = {998--1013},
+  doi     = {10.1016/j.cell.2018.10.038}
+}
+
+@article{pinhasi,
+  author  = {Pinhasi, A. and Yizhak, K.},
+  title   = {Uncovering gene and cellular signatures of immune checkpoint response via machine learning and single-cell {RNA}-seq},
+  journal = {npj Precis Oncol},
+  year    = {2025},
+  volume  = {9},
+  pages   = {95},
+  doi     = {10.1038/s41698-025-00883-z}
+}
+
+% CORRECTED -- title previously read "a lymphocyte-myeloid co-expression
+% module". Published title is "a Pathogenic Cellular Module".
+@article{martin,
+  author  = {Martin, J. C. and Chang, C. and Boschetti, G. and Ungaro, R. and
+             Giri, M. and Grout, J. A. and others},
+  title   = {Single-cell analysis of {C}rohn's disease lesions identifies a pathogenic cellular module associated with resistance to anti-{TNF} therapy},
+  journal = {Cell},
+  year    = {2019},
+  volume  = {178},
+  number  = {6},
+  pages   = {1493--1508},
+  doi     = {10.1016/j.cell.2019.08.008}
+}
+
+@article{friedrich,
+  author  = {Friedrich, M. and Pohin, M. and Jackson, M. A. and Korsunsky, I. and
+             Bullers, S. J. and Rue-Albrecht, K. and others},
+  title   = {{IL}-1-driven stromal-neutrophil interactions define a subset of patients with inflammatory bowel disease that does not respond to therapies},
+  journal = {Nat Med},
+  year    = {2021},
+  volume  = {27},
+  number  = {11},
+  pages   = {1970--1981},
+  doi     = {10.1038/s41591-021-01520-5}
+}
+
+@article{whalen,
+  author  = {Whalen, S. and Schreiber, J. and Noble, W. S. and Pollard, K. S.},
+  title   = {Navigating the pitfalls of applying machine learning in genomics},
+  journal = {Nat Rev Genet},
+  year    = {2022},
+  volume  = {23},
+  number  = {3},
+  pages   = {169--181},
+  doi     = {10.1038/s41576-021-00434-9}
+}
+
+@article{kapoor,
+  author  = {Kapoor, S. and Narayanan, A.},
+  title   = {Leakage and the reproducibility crisis in machine-learning-based science},
+  journal = {Patterns},
+  year    = {2023},
+  volume  = {4},
+  number  = {9},
+  pages   = {100804},
+  doi     = {10.1016/j.patter.2023.100804}
+}
+
+@article{squair,
+  author  = {Squair, J. W. and Gautier, M. and Kathe, C. and Anderson, M. A. and
+             James, N. D. and Hutson, T. H. and others},
+  title   = {Confronting false discoveries in single-cell differential expression},
+  journal = {Nat Commun},
+  year    = {2021},
+  volume  = {12},
+  pages   = {5692},
+  doi     = {10.1038/s41467-021-25960-2}
+}
+
+@article{thomas,
+  author  = {Thomas, T. and Friedrich, M. and Rich-Griffin, C. and Pohin, M. and
+             Agarwal, D. and Pakpoor, J. and others},
+  title   = {A longitudinal single-cell atlas of anti-tumour necrosis factor treatment in inflammatory bowel disease},
+  journal = {Nat Immunol},
+  year    = {2024},
+  volume  = {25},
+  number  = {11},
+  pages   = {2152--2165},
+  doi     = {10.1038/s41590-024-01994-8}
+}
+
+% CORRECTED -- "and others" removed. This paper has exactly three authors;
+% the prior entry falsely implied additional uncredited authors.
+@article{wolf,
+  author  = {Wolf, F. A. and Angerer, P. and Theis, F. J.},
+  title   = {{SCANPY}: large-scale single-cell gene expression data analysis},
+  journal = {Genome Biol},
+  year    = {2018},
+  volume  = {19},
+  pages   = {15},
+  doi     = {10.1186/s13059-017-1382-0}
+}
+
+@article{breiman,
+  author  = {Breiman, L.},
+  title   = {Random forests},
+  journal = {Mach Learn},
+  year    = {2001},
+  volume  = {45},
+  pages   = {5--32},
+  doi     = {10.1023/A:1010933404324}
+}
+
+@article{phipson,
+  author  = {Phipson, B. and Smyth, G. K.},
+  title   = {Permutation {P}-values should never be zero: calculating exact {P}-values when permutations are randomly drawn},
+  journal = {Stat Appl Genet Mol Biol},
+  year    = {2010},
+  volume  = {9},
+  number  = {1},
+  pages   = {Article 39},
+  doi     = {10.2202/1544-6115.1585}
+}
+
+% ============================================================================
+% NEW ENTRIES
+% ============================================================================
+
+% NEW -- supports "TNK1 is a known regulator of TNF-alpha-induced apoptosis".
+% Exactly 6 authors; all listed, no truncation. Verified: PubMed 17471239
+% plus five independent citing reference lists.
+@article{azoitei,
+  author  = {Azoitei, N. and Brey, A. and Busch, T. and Fulda, S. and
+             Adler, G. and Seufferlein, T.},
+  title   = {Thirty-eight-negative kinase 1 ({TNK}1) facilitates {TNF}alpha-induced apoptosis by blocking {NF}-kappa{B} activation},
+  journal = {Oncogene},
+  year    = {2007},
+  volume  = {26},
+  number  = {45},
+  pages   = {6536--6545},
+  doi     = {10.1038/sj.onc.1210476}
+}
+
+% NEW -- ties TNK1 to human IBD and to infliximab specifically. 33 authors;
+% first six listed. Verified: PubMed 30320600, JCI, PMC6205400.
+@article{armacki,
+  author  = {Armacki, M. and Trugenberger, A. K. and Ellwanger, A. K. and
+             Eiseler, T. and Schwerdt, C. and Bettac, L. and others},
+  title   = {Thirty-eight-negative kinase 1 mediates trauma-induced intestinal injury and multi-organ failure},
+  journal = {J Clin Invest},
+  year    = {2018},
+  volume  = {128},
+  number  = {11},
+  pages   = {5056--5072},
+  doi     = {10.1172/JCI97912}
+}
+
+% NEW -- supports "FOXP1 regulates naive CD8+ T cell quiescence".
+% Exactly 6 authors; all listed. Verified: PubMed 21532575, Nature Immunology.
+% NOTE: this paper does NOT address checkpoint inhibitor response.
+@article{feng,
+  author  = {Feng, X. and Wang, H. and Takata, H. and Day, T. J. and
+             Willen, J. and Hu, H.},
+  title   = {Transcription factor {F}oxp1 exerts essential cell-intrinsic regulation of the quiescence of naive {T} cells},
+  journal = {Nat Immunol},
+  year    = {2011},
+  volume  = {12},
+  number  = {6},
+  pages   = {544--550},
+  doi     = {10.1038/ni.2034}
+}
+
+% NEW -- ROC AUC methodology, cited by the replacement power-calculation
+% sentence and implemented by provenance/auc_power_calculation.py.
+%
+% Verified 2026-07-28 against the RSNA journal record: Radiology 143(1),
+% 29-36, April 1982, PMID 7063747, doi 10.1148/radiology.143.1.7063747.
+@article{hanley,
+  author  = {Hanley, J. A. and McNeil, B. J.},
+  title   = {The meaning and use of the area under a receiver operating characteristic ({ROC}) curve},
+  journal = {Radiology},
+  year    = {1982},
+  volume  = {143},
+  number  = {1},
+  pages   = {29--36},
+  doi     = {10.1148/radiology.143.1.7063747}
+}
